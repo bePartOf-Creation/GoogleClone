@@ -1,0 +1,159 @@
+body{
+	height: 100%;
+	background-color: white;
+	background-size: cover;
+}
+
+.link{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 30px;
+}
+.link > ul {
+	list-style-type: none;
+	margin: 0%;
+	padding:0%;
+	overflow: hidden;
+	
+} 
+ul > li {
+	text-decoration: none;
+	float:left;
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+ul > li > a{
+	text-decoration: none;
+	color: grey;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bttn{
+	border: 8px solid blue;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	background-color: blue;
+	font-size: 14px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.goImage{
+  position:absolute;
+  top:20%;
+  left:38%;  
+  align-items: center;
+}
+
+.filter > input[type="text"]{
+	position:absolute;
+	top:38%;
+	left:27%; 
+	border-radius: 19px;
+	width:580px;
+	height: 30px;
+}
+.searchBar >.s-icon {
+	position: absolute;
+	top:40.5%;
+	left:28%; 
+}
+.filter > input[placeholder="Search Google"]{
+	 padding: 4px 33px;
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.searchBar > .m-icon{
+	position: absolute;
+	top:40.5%;
+	left:72%; 
+}
+.go-bttn > .gsearch{
+	position: absolute;
+	top:47%;
+	left:40%;
+}
+.go-bttn > .lucky{
+	position: absolute;
+	top:47%;
+	left:52%; 
+}
+
+.go-bttn > input[type="button"]{
+	border-radius: 6px;
+	height: 38px;
+	width: 150px;
+	background-color: rgb(233, 233, 233);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.go-advance {
+	position:absolute;
+	top:54%;
+	left:37%; 
+}
+.go-advance > a{
+	text-decoration: none;
+}
+.go-advance > a:hover{
+	text-decoration: underline;
+}
+.foot-1 > p{
+	position:absolute;
+	top:85%; 
+	background-color: lightgrey;
+	background-size: cover;
+	color:grey;
+	width:99%;
+	padding: 15px;
+	margin:auto;
+	border: 2px solid rgb(187, 186, 186);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foot-2 > .foot1 {
+	position:absolute;
+	top:93%; 
+	background-color: lightgrey;
+	background-size: cover;
+	width:99%;
+	padding: 11px; 
+	margin: auto;
+	border: 2px solid rgb(187, 186, 186);
+	
+
+}
+.foot-2 > .foot2 {
+	position:absolute;
+	top:93%;
+	left:82%;
+	padding: 11px; 
+	margin: auto;
+	border:0px solid rgb(187, 186, 186);
+
+}
+
+.foot1 a{
+   text-decoration: none;
+   width:100%;
+   margin:0px;
+   background-color: lightgrey;
+   background-size: cover;
+   padding: 8px;
+   color:grey;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot2 a{
+	text-decoration: none;
+	width:100%;
+	margin:0px;
+	background-color: lightgrey;
+	background-size: cover;
+	padding: 8px;
+	color:grey;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .foot1 > a:hover {
+        text-decoration: underline;
+ }
+ .foot2 > a:hover {
+	text-decoration: underline;
+}
