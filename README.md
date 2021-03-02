@@ -1,2 +1,2 @@
 # GoogleClone
-Cloning of Google.com Page
+Cloning of Google.com Search Engine Page
